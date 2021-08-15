@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  color: #4a4a4a;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #009688;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #111b21;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(170, 170, 170);
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+header {
+  background-color: #00bfa5;
+  height: 14rem;
+  padding: 1.7rem 0;
+}
+
+#header-content {
+  max-width: 62rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo span {
+  color: white;
+  font-size: 0.90rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 2.3rem;
+}
+
+.landing-window {
+  max-width: 62rem;
+  margin: -8rem auto 6rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  box-shadow: 0 17px 50px 0 rgb(0 0 0 / 19%), 0 12px 15px 0 rgb(0 0 0 / 24%);
+}
+
+.landing-main {
+  padding: 3.8rem;
+  padding-bottom: 7rem;
+  background-color: white;
+}
+
+.conection-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+}
+
+.instructions-container h1 {
+  margin-bottom: 3.2rem;
+  color: #3b4a54;
+}
+
+.instructions-container ol {
+  font-size: 18px;
+  margin-left: 1.5rem;
+}
+
+.instructions-container ol li {
+  line-height: 28px;
+}
+
+.instructions-container ol li:nth-child(n + 2) {
+  margin-top: 1.1rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+
+  background-color: rgb(242, 242, 242);
+}
+.icon i {
+  color: rgb(129, 139, 144);
+}
+
+.qr {
+  height: 264px;
+  width: 264px;
+}
+
+.qr img {
+  width: 100%;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-block: 2.5rem;
+  background-color: rgba(249,249,249,255);
+}
+
+.help-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+
+  margin-bottom: 2.5rem;
+}
+
+#video {
+  width: 560px;
+  height: 314px;
+  border: 1px solid;
+}
